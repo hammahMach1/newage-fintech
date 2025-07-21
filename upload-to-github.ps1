@@ -1,7 +1,7 @@
-# NewAge Fintech - GitHub Upload Script
+# Hammah's Fintech App - GitHub Upload Script
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "    NewAge Fintech - GitHub Upload Script" -ForegroundColor Cyan  
+Write-Host "    Hammah's Fintech App - GitHub Upload Script" -ForegroundColor Cyan  
 Write-Host "============================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -28,13 +28,13 @@ if ($gitStatus) {
 Write-Host ""
 Write-Host "📝 GitHub Repository Setup:" -ForegroundColor Yellow
 Write-Host "1. Go to https://github.com/new" -ForegroundColor White
-Write-Host "2. Repository name: newage-fintech (or your choice)" -ForegroundColor White
+Write-Host "2. Repository name: hammahs-fintech-app (or your choice)" -ForegroundColor White
 Write-Host "3. Description: Modern Financial Services Platform" -ForegroundColor White
 Write-Host "4. Make it Public (recommended)" -ForegroundColor White
 Write-Host "5. DON'T initialize with README/gitignore (we have them)" -ForegroundColor Red
 Write-Host "6. Click 'Create repository'" -ForegroundColor White
 Write-Host ""
-Write-Host "Example URL: https://github.com/yourusername/newage-fintech.git" -ForegroundColor Green
+Write-Host "Example URL: https://github.com/yourusername/hammahs-fintech-app.git" -ForegroundColor Green
 Write-Host ""
 
 $repoUrl = Read-Host "Enter your GitHub repository URL"
@@ -90,7 +90,7 @@ Write-Host "============================================" -ForegroundColor Green
 Write-Host "    🎉 Upload Successful! " -ForegroundColor Green
 Write-Host "============================================" -ForegroundColor Green
 Write-Host ""
-Write-Host "🌟 Your NewAge Fintech application is now on GitHub!" -ForegroundColor Cyan
+Write-Host "🌟 Your Hammah's Fintech App is now on GitHub!" -ForegroundColor Cyan
 Write-Host "📍 Repository URL: $repoUrl" -ForegroundColor White
 Write-Host ""
 Write-Host "🚀 Next Steps:" -ForegroundColor Yellow

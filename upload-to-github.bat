@@ -1,13 +1,13 @@
 @echo off
 echo.
 echo ============================================
-echo    NewAge Fintech - GitHub Upload Script
+echo    Hammah's Fintech App - GitHub Upload Script
 echo ============================================
 echo.
 
 REM Instructions for the user
 echo Please replace YOUR_GITHUB_USERNAME and YOUR_REPO_NAME with your actual values
-echo Example: https://github.com/johndoe/newage-fintech.git
+echo Example: https://github.com/johndoe/hammahs-fintech-app.git
 echo.
 
 set /p REPO_URL="Enter your GitHub repository URL: "
