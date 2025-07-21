@@ -1,35 +1,13 @@
-import { useMemo } from 'react';
-import { Container, Theme } from './settings/types';
-import FintechMobileDashboard from './components/generated/FintechMobileDashboard';
-
-let theme: Theme = 'light';
-let container: Container = 'none';
+import './index.css';
+import { QueryProvider } from './lib/queryClient';
+import AppRouter from './components/AppRouter';
 
 function App() {
-  function setTheme(theme: Theme) {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }
-
-  setTheme(theme);
-
-  const generatedComponent = useMemo(() => {
-    // THIS IS WHERE THE TOP LEVEL GENRATED COMPONENT WILL BE RETURNED!
-    return <FintechMobileDashboard />; // <FintechMobileDashboard />
-  }, []);
-
-  if (container === 'centered') {
-    return (
-      <div className="h-full w-full flex flex-col items-center justify-center">
-        {generatedComponent}
-      </div>
-    );
-  } else {
-    return generatedComponent;
-  }
+  return (
+    <QueryProvider>
+      <AppRouter />
+    </QueryProvider>
+  );
 }
 
 export default App;
