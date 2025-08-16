@@ -17,7 +17,7 @@ const TransactPage: React.FC = () => {
   }, [searchParams]);
 
   const quickSendContacts = [
-    { id: 1, name: 'John Doe', initials: 'JD', color: 'bg-blue-500' },
+    { id: 1, name: 'Mr. Hammah', initials: 'MH', color: 'bg-blue-500' },
     { id: 2, name: 'Sarah Wilson', initials: 'SW', color: 'bg-green-500' },
     { id: 3, name: 'Mike Johnson', initials: 'MJ', color: 'bg-purple-500' },
     { id: 4, name: 'Add Contact', initials: '+', color: 'bg-gray-300' }
@@ -211,7 +211,7 @@ const TransactPage: React.FC = () => {
                 <div className="space-y-4">
                   <div>
                     <p className="text-gray-600 text-sm">Account Name</p>
-                    <p className="text-gray-900 font-semibold">John Doe</p>
+                    <p className="text-gray-900 font-semibold">Mr. Hammah</p>
                   </div>
                   <div>
                     <p className="text-gray-600 text-sm">Account Number</p>

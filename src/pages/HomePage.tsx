@@ -107,7 +107,7 @@ const HomePage: React.FC = () => {
             </div>
             <div>
               <p className="text-white/80 text-sm">Good morning,</p>
-              <p className="text-white font-semibold text-lg">John Doe</p>
+              <p className="text-white font-semibold text-lg">Mr. Hammah</p>
             </div>
           </div>
           <div className="relative">

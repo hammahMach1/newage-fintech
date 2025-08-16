@@ -162,12 +162,12 @@ const MorePage: React.FC = () => {
         >
           <div className="relative">
             <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">JD</span>
+              <span className="text-white font-bold text-xl">MH</span>
             </div>
             <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-green-400 rounded-full border-2 border-white"></div>
           </div>
           <div className="flex-1">
-            <h3 className="text-xl font-semibold text-gray-900">John Doe</h3>
+            <h3 className="text-xl font-semibold text-gray-900">Mr. Hammah</h3>
             <p className="text-gray-600 text-sm">john.doe@example.com</p>
             <p className="text-purple-600 text-sm font-medium">Premium Member</p>
           </div>

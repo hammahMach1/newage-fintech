@@ -81,6 +81,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="flex justify-center mt-2">
           <div className="w-12 h-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full" />
         </div>
+        {/* Powered by Ouzatech */}
+        <div className="flex justify-center mt-2">
+          <p className="text-xs text-gray-400">Powered by Ouzatech</p>
+        </div>
       </nav>
     </div>
   );
